@@ -6,12 +6,13 @@ import java.sql.SQLException;
 
 public class Db {
 
-    private final String DB_URL = "jdbc:postgresql://localhost:5432/TourismAgencyGP2";
+    private final String DB_URL = "jdbc:postgresql://localhost:5432/TourismAgencyGP2"; //TourismAgencyGP2
     private final String DB_USERNAME = "postgres";
     private final String DB_PASS = "12345";
     private Connection connection = null;
     private static Db instance = null;
 
+    //Constructor Db
     private Db() {
         try {
             this.connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASS);
@@ -20,6 +21,7 @@ public class Db {
         }
     }
 
+    //Veri tabanına bağlan
     public Connection getConnection() {
         return connection;
     }

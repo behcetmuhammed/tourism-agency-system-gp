@@ -11,14 +11,17 @@ import java.util.ArrayList;
 public class ReservationManager {
     private final ReservationDao reservationDao;
 
+    //Constructor ReservationManager
     public ReservationManager() {
         this.reservationDao = new ReservationDao();
     }
 
+    //bileşenleri getir
     public ArrayList<Reservation> findAll() {
         return this.reservationDao.findAll();
     }
 
+    //Kaydet
     public boolean save(Reservation reservation) {
         if (reservation.getId() != 0) {
             Helper.showMsg("error");
@@ -26,6 +29,7 @@ public class ReservationManager {
         return this.reservationDao.save(reservation);
     }
 
+    //Güncelle
     public boolean update(Reservation reservation) {
         if (this.getById(reservation.getId()) == null) {
 
@@ -34,6 +38,7 @@ public class ReservationManager {
         return this.reservationDao.update(reservation);
     }
 
+    //Silme
     public boolean delete(int id) {
         if (this.getById(id) == null) {
             Helper.showMsg(id + "ID kayıtlı marka bulunamadı");
@@ -42,6 +47,7 @@ public class ReservationManager {
         return this.reservationDao.delete(id);
     }
 
+    //tablodan getir
     public ArrayList<Object[]> getForTable(int size, ArrayList<Reservation> reservationList) {
         ArrayList<Object[]> reservationRowList = new ArrayList<>();
         for (Reservation reservation : reservationList) {
@@ -62,10 +68,12 @@ public class ReservationManager {
         return reservationRowList;
     }
 
+    //id ye göre getir
     public Reservation getById(int id) {
         return this.reservationDao.getById(id);
     }
 
+    //Otel id ye göre pers. getir
     public ArrayList<Reservation> getByListReservationId(int id) {
         return this.reservationDao.getByListReservationId(id);
     }

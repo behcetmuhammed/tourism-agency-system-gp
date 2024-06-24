@@ -74,7 +74,7 @@ public class ReservationAddView extends Layout {
 
     private double totalPrice;
 
-
+    //Constructor ReservationAddView
     public ReservationAddView(Reservation reservation, Room selectedRoom, String entry_date, String exit_date, double totalPrice, int customerTotalNumber) {
         this.room = selectedRoom;
         if (reservation == null) {
@@ -144,6 +144,8 @@ public class ReservationAddView extends Layout {
         this.fld_pensiontype.setText(this.room.getPension().getPension_type());
         this.fld_m2.setText(String.valueOf(this.room.getSquare_meter()));
         this.fld_customertotal.setText(String.valueOf(customerTotalNumber));
+
+        //Save botununa basıldığı zaman
         btn_save.addActionListener(e -> {
             JTextField[] checkFieldList = {
                     this.fld_customername,

@@ -17,16 +17,19 @@ public class RoomManager {
     private HotelManager hotelManager;
     private PensionManager pensionManager;
 
+    //Constructor RoomManager
     public RoomManager() {
         this.roomDao = new RoomDao();
         this.hotelManager = new HotelManager();
         this.pensionManager = new PensionManager();
     }
 
+    //bileşenleri getir
     public ArrayList<Room> findAll() {
         return this.roomDao.findAll();
     }
 
+    //Kaydet
     public boolean save(Room room) {
         if (room.getId() != 0) {
             Helper.showMsg("error");
@@ -34,6 +37,7 @@ public class RoomManager {
         return this.roomDao.save(room);
     }
 
+    //Güncelle
     public boolean update(Room room) {
         if (this.getById(room.getId()) == null) {
 
@@ -42,6 +46,7 @@ public class RoomManager {
         return this.roomDao.update(room);
     }
 
+    //tablodan getir
     public ArrayList<Object[]> getForTable(int size, ArrayList<Room> roomList) {
         ArrayList<Object[]> roomRowList = new ArrayList<>();
         for (Room room : roomList) {
@@ -69,10 +74,12 @@ public class RoomManager {
         return roomRowList;
     }
 
+    //id ye göre getir
     public Room getById(int id) {
         return this.roomDao.getById(id);
     }
 
+    //arama
     public ArrayList<Room> searchForTable(String hotelName, String cityAdress, String checkinDate, String checkoutDate, String adultNum, String childNum) {
         String query = "SELECT * from public.room r " +
                 "LEFT JOIN public.hotel h ON r.hotel_id = h.id " +

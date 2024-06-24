@@ -11,14 +11,17 @@ public class HotelManager {
 
     private final HotelDao hotelDao;
 
+    //Constructor HotelManager
     public HotelManager() {
         this.hotelDao = new HotelDao();
     }
 
+    //bileşenleri getir
     public ArrayList<Hotel> findAll() {
         return this.hotelDao.findAll();
     }
 
+    //tablodan getir
     public static ArrayList<Object[]> getForTable(int size, ArrayList<Hotel> hotelList) {
         ArrayList<Object[]> hotelRowList = new ArrayList<>();
         for (Hotel hotel : hotelList) {
@@ -42,6 +45,7 @@ public class HotelManager {
         return hotelRowList;
     }
 
+    //kaydet
     public boolean save(Hotel hotel) {
         if (hotel.getId() != 0) {
             Helper.showMsg("error");
@@ -49,6 +53,7 @@ public class HotelManager {
         return this.hotelDao.save(hotel);
     }
 
+    //id ye göre getir
     public Hotel getById(int id) {
         return this.hotelDao.getById(id);
     }

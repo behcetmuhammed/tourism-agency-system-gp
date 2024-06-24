@@ -11,14 +11,17 @@ public class PensionManager {
 
     private final PensionDao pensionDao;
 
+    //Constructor PensionManager
     public PensionManager() {
         this.pensionDao = new PensionDao();
     }
 
+    //bileşenleri getir
     public ArrayList<Pension> findAll() {
         return this.pensionDao.findAll();
     }
 
+    //Kaydet
     public boolean save(Pension pension) {
         if (pension.getId() != 0) {
             Helper.showMsg("error");
@@ -26,6 +29,7 @@ public class PensionManager {
         return this.pensionDao.save(pension);
     }
 
+    //Güncelle
     public boolean update(Pension pension) {
         if (this.getById(pension.getId()) == null) {
 
@@ -34,6 +38,7 @@ public class PensionManager {
         return this.pensionDao.update(pension);
     }
 
+    //tablodan getir
     public ArrayList<Object[]> getForTable(int size, ArrayList<Pension> pensionList) {
         ArrayList<Object[]> pensionRowList = new ArrayList<>();
         for (Pension pension : pensionList) {
@@ -47,6 +52,7 @@ public class PensionManager {
         return pensionRowList;
     }
 
+    //Tabloda arama metodu
     public ArrayList<Pension> searchForTable(Pension.PensionType pensionType) {
         String select = "SELECT * FROM public.hotel_pension ";
         ArrayList<String> whereList = new ArrayList<>();
@@ -61,10 +67,12 @@ public class PensionManager {
         return this.pensionDao.selectByQuery(query);
     }
 
+    //id ye göre getir
     public Pension getById(int id) {
         return this.pensionDao.getById(id);
     }
 
+    //Otel id ye göre pers. getir
     public ArrayList<Pension> getPensionsByOtelId(int otelId) {
         return pensionDao.getPensionsByOtelId(otelId);
     }

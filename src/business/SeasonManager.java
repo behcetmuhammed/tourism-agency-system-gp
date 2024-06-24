@@ -9,14 +9,17 @@ import java.util.ArrayList;
 public class SeasonManager {
     private final SeasonDao seasonDao;
 
+    //Constructor SeasonManager
     public SeasonManager() {
         this.seasonDao = new SeasonDao();
     }
 
+    //bileşenleri getir
     public ArrayList<Season> findAll() {
         return this.seasonDao.findAll();
     }
 
+    //Kaydet
     public boolean save(Season season) {
         if (season.getId() != 0) {
             Helper.showMsg("error");
@@ -24,6 +27,7 @@ public class SeasonManager {
         return this.seasonDao.save(season);
     }
 
+    //Güncelle
     public boolean update(Season season) {
         if (this.getById(season.getId()) == null) {
 
@@ -32,6 +36,7 @@ public class SeasonManager {
         return this.seasonDao.update(season);
     }
 
+    //tablodan getir
     public ArrayList<Object[]> getForTable(int size, ArrayList<Season> seasonList) {
         ArrayList<Object[]> seasonRowList = new ArrayList<>();
         for (Season season : seasonList) {

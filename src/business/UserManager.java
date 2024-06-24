@@ -40,7 +40,7 @@ public class UserManager {
 
     public boolean delete(int id) {
         if (this.getById(id) == null) {
-            Helper.showMsg(id + "ID kayıtlı marka bulunamadı");
+            Helper.showMsg(id + "ID kayıtlı kullanıcı bulunamadı");
             return false;
         }
         return this.userDao.delete(id);

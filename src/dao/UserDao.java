@@ -12,10 +12,14 @@ import java.util.ArrayList;
 public class UserDao {
     private final Connection con;
 
+
+    //Constructor UserDao
     public UserDao() {
         this.con = Db.getInstance();
     }
 
+
+    //veritabanındaki tüm User verilerini çekmek
     public ArrayList<User> findAll() {
         ArrayList<User> userList = new ArrayList<>();
         String sql = "SELECT * FROM public.user";
@@ -32,6 +36,8 @@ public class UserDao {
         return userList;
     }
 
+
+    //Sorgu Seçmek
     public ArrayList<User> selectByQuery(String query) {
         ArrayList<User> userList = new ArrayList<>();
         try {
@@ -47,6 +53,8 @@ public class UserDao {
         return userList;
     }
 
+
+    //Giriş kontrol
     public User findByLogin(String userName, String password) {
         User obj = null;
         String query = "SELECT * FROM public.user WHERE user_name = ? AND user_password = ?";
@@ -65,6 +73,8 @@ public class UserDao {
         return obj;
     }
 
+
+    //İD ye göre..
     public User getById(int id) {
         User obj = null;
         String query = "SELECT * FROM public.user WHERE user_id = ?";
@@ -80,6 +90,8 @@ public class UserDao {
         return obj;
     }
 
+
+    //Kaydet
     public boolean save(User user) {
         String query = "INSERT INTO public.user" +
                 "(" +
@@ -102,6 +114,8 @@ public class UserDao {
         return true;
     }
 
+
+    //Güncelle
     public boolean update(User user) {
         String query = "UPDATE public.user SET" +
                 " user_name = ?," +
@@ -123,6 +137,8 @@ public class UserDao {
         return true;
     }
 
+
+    //Silme
     public boolean delete(int id) {
         String query = "DELETE FROM public.user WHERE user_id = ?";
         try {
@@ -135,6 +151,8 @@ public class UserDao {
         return true;
     }
 
+
+    //tüm verileri kaşılaştırır
     public User match(ResultSet rs) throws SQLException {
         User obj = new User();
         obj.setId(rs.getInt("user_id"));
