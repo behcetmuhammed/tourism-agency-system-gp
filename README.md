@@ -157,27 +157,23 @@ Yeni kullanıcı ekleme paneli
 
 ### Pansiyon Yönetimi
 1)
-![](pictures/AddPension.png)
+![](pictures/PensionManagement.png)
 
 ### Sezon Yönetimi
 1)
-![](pictures/Login.png)
+![](pictures/SeasonManagement.png)
 
 ### Oda Yönetimi
 1)
 ![](pictures/Room.png)
-2)
-![](pictures/Login.png)
 
 ### Rezervasyon İşlemleri
 1)
 ![](pictures/Reservation.png)
-2)
-![](pictures/Login.png)
 
 ### Validasyonlar
 1)
-![](pictures/Login.png)
+![](pictures/Filter.png)
 2)
 ![](pictures/Login.png)
 3)
