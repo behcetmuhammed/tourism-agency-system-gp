@@ -52,8 +52,9 @@ Patika Turizm Acentesi'nin yönetim sistemi, otel ve oda yönetimi, dönemsel fi
 <p align="justify"> 
 Projede kullanılan teknolojiler:
 
-[![made-with-java](https://img.shields.io/badge/Made%20with-Java-green.svg)](https://www.python.org/) <br>
-[![made-with-Swing](https://img.shields.io/badge/Made%20with-Swing-red.svg)](https://www.python.org/) <br>
+[![made-with-java](https://img.shields.io/badge/Made%20with-Java-green.svg)](https://www.java.com/tr/) <br>
+[![made-with-Swing](https://img.shields.io/badge/Made%20with-Swing-red.svg)](https://www.java.com/tr/) <br>
+[![made-with-SQL](https://img.shields.io/badge/Made%20with-SQL-blue.svg)](https://www.mysql.com/) <br>
 [![made-with-ide](https://img.shields.io/badge/IntelliJ%20IDEA%20%2F%20Eclipse%20%2F%20Herhangi%20bir%20Java%20-IDE-blue.svg)](https://www.python.org/) <br>
 
 </p>
