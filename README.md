@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center"> 
-  <img src="pictures/test.jpg" alt="Sistem Ana Görseli" width="60%" height="30%">
+  <img src="pictures/Login.png" alt="Sistem Ana Görseli" width="60%" height="30%">
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -32,7 +32,7 @@
 <h2 id="proje-ozeti-video-kaydı"> :video_camera: Proje Özeti Video Kaydı</h2>
 
 <p>
-✤ <a href="https://drive.google.com/file/d/1oGhAhnkF8Km8NiwUC_Qcac16mK33Jadn/view?usp=sharing">Video Linki</a> <br>
+✤ <a href="https://www.youtube.com/channel/UCEJ2dE8VjikdFug6d26wDBA">Video Linki</a> <br>
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -40,7 +40,9 @@
 <h2 id="proje-ozeti"> :mag_right: Proje Özeti</h2>
 
 <p align="justify"> 
-Patika Turizm Acentesi için geliştirilen bu yönetim sistemi, turizm sektöründe faaliyet gösteren işletmelerin günlük operasyonlarını daha etkili bir şekilde yönetmelerini sağlamak amacıyla tasarlanmıştır. Sistem, otel rezervasyon süreçlerini optimize ederek, acente çalışanlarının müşteri taleplerine hızlı ve etkili bir şekilde yanıt vermesine olanak tanır. Admin ve acente çalışanı olmak üzere iki farklı kullanıcı tipi tanımlanmış, bu kullanıcıların yetkileri ile sistem üzerinde çeşitli işlemleri gerçekleştirmeleri sağlanmıştır. Otel ve oda yönetimi, dönem ve fiyat yönetimi, oda arama ve rezervasyon işlemleri gibi temel özelliklerle, acentenin işlerini dijital ortamda kolayca yürütmesi hedeflenmiştir.
+Patika Turizm Acentesi'nin yeni yönetim sistemi, turizm sektöründe faaliyet gösteren işletmelerin günlük operasyonlarını daha verimli hale getirmeyi hedefliyor. Sistem, otel rezervasyon süreçlerini optimize ederek, acentenin müşteri taleplerine hızlı ve etkili bir şekilde yanıt vermesine olanak tanıyor. Hem yönetici hem de acente çalışanı olmak üzere iki farklı kullanıcı profili bulunuyor ve her bir kullanıcı tipinin sistem üzerinde belirli yetkileri var.
+
+Patika Turizm Acentesi'nin yönetim sistemi, otel ve oda yönetimi, dönemsel fiyatlandırma ayarları, oda arama ve rezervasyon işlemleri gibi temel işlevleri dijital ortamda sağlayarak, acentenin işlerini kolaylaştırıyor ve operasyonel süreçlerini daha etkin bir şekilde yönetmelerine olanak sağlıyor.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -64,11 +66,11 @@ Projede kullanılan teknolojiler:
 Projeyi  klonlamak ve çalıştırmak için aşağıdaki adımları takip edin:
 
 ```bash
-git clone https://github.com/esrasen/TourismAgencySystem.git
-cd TourismAgencySystem
+git clone https://github.com/behcetmuhammed/tourism-agency-system-gp.git
+cd tourism-agency-system-gp
 ```
 
-Projeyi IDE'nizde açın ve `Main` sınıfını çalıştırın.
+Projeyi IDE'nizde açın ve `App` sınıfını çalıştırın.
 </p>
 
 
