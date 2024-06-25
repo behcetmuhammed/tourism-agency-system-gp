@@ -211,7 +211,9 @@ public class EmployeeView extends Layout {
     private void loadReservationComponent() {
 
         tableRowSelect(tbl_reservation);
+
         JPopupMenu reservation_menu = new JPopupMenu();
+
         reservation_menu.add("Update Reservation").addActionListener(e -> {
 
             int selectId = this.getTableSelectedRow(this.tbl_reservation, 0);
