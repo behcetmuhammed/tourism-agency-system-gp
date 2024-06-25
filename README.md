@@ -152,8 +152,12 @@ Yeni kullanıcı ekleme paneli
 ### Otel Yönetimi
 1)
 ![](pictures/Employee.png)
+
 2)
 ![](pictures/AddPension.png)
+
+3)
+![](pictures/AddHotel.png)
 
 ### Pansiyon Yönetimi
 1)
@@ -174,10 +178,9 @@ Yeni kullanıcı ekleme paneli
 ### Validasyonlar
 1)
 ![](pictures/Filter.png)
+
 2)
-![](pictures/Login.png)
-3)
-![](pictures/Login.png)
+![](pictures/Fil1.png)
 
 </p>
 
