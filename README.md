@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center"> 
-  <img src="docs/images/main.png" alt="Sistem Ana Görseli" width="60%" height="30%">
+  <img src="pictures/test.jpg" alt="Sistem Ana Görseli" width="60%" height="30%">
 </p>
 
 <!-- TABLE OF CONTENTS -->
