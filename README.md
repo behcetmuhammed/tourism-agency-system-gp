@@ -79,7 +79,7 @@ Projeyi IDE'nizde açın ve `App` sınıfını çalıştırın.
 <h2 id="kullanici-yonetimi"> :busts_in_silhouette: Kullanıcı Yönetimi</h2>
 
 <p align="justify">
-Sistemde iki farklı kullanıcı tipi bulunmaktadır: Admin ve Acente Çalışanı. Admin kullanıcıları, sistem üzerinde kapsamlı kontrol ve yönetim yetkilerine sahiptir. Bu yetkiler arasında acente çalışanlarını listeleme, ekleme, silme, güncelleme ve kullanıcı rollerine göre filtreleme işlemleri yer alır. Acente çalışanları ise otel ve oda yönetimi, dönem yönetimi, fiyat yönetimi gibi işlevlere erişim sağlar ve müşteri rezervasyonları üzerinde işlemler gerçekleştirebilir.
+Sistemde iki ana kullanıcı türü bulunur: Yönetici ve Acenta Çalışanı. Yönetici kullanıcıları, sistem üzerinde geniş yetkilere sahiptirler ve acenta çalışanlarını listeleme, ekleme, silme, güncelleme gibi işlemleri gerçekleştirebilirler. Ayrıca, kullanıcıları rollerine göre filtreleyebilirler. Acenta çalışanları ise otel ve oda yönetimi, dönem yönetimi ve fiyat yönetimi gibi işlevlere erişerek müşteri rezervasyonları üzerinde işlem yapabilirler.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -87,7 +87,7 @@ Sistemde iki farklı kullanıcı tipi bulunmaktadır: Admin ve Acente Çalışan
 <h2 id="otel-yonetimi"> :hotel: Otel Yönetimi</h2>
 
 <p align="justify">
-Otel Yönetimi, Patika Turizm Acentesi'nin anlaşmalı olduğu otelleri yönetmek için tasarlanmıştır. Acente çalışanları bu modül aracılığıyla otel listeleme ve yeni otel ekleme işlemlerini gerçekleştirebilir. Her otel kaydında, otelin adı, adresi, e-posta adresi, telefon numarası, yıldız sayısı ve otelin sahip olduğu tesis özellikleri gibi detaylar yer alır. Ayrıca, otellere ait pansiyon tipleri ve dönem bilgileri de bu modül üzerinden yönetilir, böylece fiyatlandırma ve rezervasyon işlemleri için gerekli altyapı sağlanmış olur.
+Patika Turizm Acentesi'nin anlaşmalı olduğu otellerin yönetimi için tasarlanmış olan Otel Yönetimi modülü, acenta çalışanlarının otel listeleme ve yeni otel ekleme işlemlerini gerçekleştirmesini sağlar. Her otel kaydında otelin adı, adresi, e-posta adresi, telefon numarası, yıldız sayısı ve otelin sunduğu tesis özellikleri gibi bilgiler bulunur. Ayrıca, otellere ait pansiyon tipleri ve dönem bilgileri de bu modül üzerinden yönetilerek fiyatlandırma ve rezervasyon süreçleri için gerekli altyapı oluşturulur.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -95,14 +95,14 @@ Otel Yönetimi, Patika Turizm Acentesi'nin anlaşmalı olduğu otelleri yönetme
 <h2 id="oda-yonetimi"> :door: Oda Yönetimi</h2>
 
 <p align="justify">
-Oda Yönetimi, acente çalışanlarının oteller bünyesindeki odaları yönetebilmelerini sağlar. Bu modül aracılığıyla oda listeleme, yeni oda ekleme ve odaları otel adı, şehir ya da istenilen tarihe göre arama imkanı sunar. Oda kaydı sırasında, odanın tipi (tek kişilik, çift kişilik, suite vb.), oda özellikleri (yatak sayısı, televizyon, minibar, oyun konsolu vb.), oda fiyatı ve oda stoğu gibi bilgiler girilir.
+Oda Yönetimi modülü, acenta çalışanlarının otellerdeki odaları yönetmelerini sağlar. Bu modül sayesinde odaların listelenmesi, yeni odaların eklenmesi ve odaların otel adı, şehir veya belirli bir tarihe göre aranması mümkündür. Oda kaydı sırasında, odanın tipi (tek kişilik, çift kişilik, suit vb.), oda özellikleri (yatak sayısı, televizyon, minibar, oyun konsolu vb.), oda fiyatı ve oda stoğu gibi bilgiler girilir.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <!-- RESERVATION OPERATIONS -->
 <h2 id="rezervasyon-islemleri"> :clipboard: Rezervasyon İşlemleri</h2>
 
 <p align="justify">
-Rezervasyon İşlemleri, acente çalışanlarının müşterilere hızlı ve etkili bir şekilde hizmet sunmalarını sağlar. Rezervasyon işlemi sırasında, müşteri iletişim bilgileri ve misafir bilgileri girilir. Bu bilgilere göre toplam fiyat otomatik olarak hesaplanır. Acente çalışanları rezervasyonları listeleyebilir, güncelleyebilir ve silebilirler. Bir rezervasyon işlemi tamamlandığında, ilgili odanın stoğu 1 azaltılır.
+Rezervasyon İşlemleri modülü, acenta çalışanlarının müşteri hizmetlerini hızlı ve etkili bir şekilde sunmalarını sağlar. Rezervasyon yapılırken müşteri iletişim bilgileri ve misafir bilgileri sisteme girilir. Bu bilgilere göre toplam fiyat otomatik olarak hesaplanır. Acenta çalışanları rezervasyonları listeleyebilir, güncelleyebilir ve silebilirler. Rezervasyon tamamlandığında, ilgili odanın stoğu otomatik olarak bir azalır.
 </p>
 
 
@@ -115,47 +115,47 @@ Rezervasyon İşlemleri, acente çalışanlarının müşterilere hızlı ve etk
 
 ### Login Ekranı
 1)
-![](docs/images/main.png)
+![](pictures/Login.png)
 
 ### Admin Paneli 
 1)
-![](docs/images/1.png)
+![](pictures/User.png)
 2)
-![](docs/images/5.png)
+![](pictures/Login.png)
 
 ### Otel Yönetimi
 1)
-![](docs/images/13.png)
+![](pictures/Login.png)
 2)
-![](docs/images/10.png)
+![](pictures/Login.png)
 
 ### Pansiyon Yönetimi
 1)
-![](docs/images/3.png)
+![](pictures/Login.png)
 
 ### Sezon Yönetimi
 1)
-![](docs/images/4.png)
+![](pictures/Login.png)
 
 ### Oda Yönetimi
 1)
-![](docs/images/6.png)
+![](pictures/Login.png)
 2)
-![](docs/images/7.png)
+![](pictures/Login.png)
 
 ### Rezervasyon İşlemleri
 1)
-![](docs/images/8.png)
+![](pictures/Login.png)
 2)
-![](docs/images/11.png)
+![](pictures/Login.png)
 
 ### Validasyonlar
 1)
-![](docs/images/12.png)
+![](pictures/Login.png)
 2)
-![](docs/images/9.png)
+![](pictures/Login.png)
 3)
-![](docs/images/2.png)
+![](pictures/Login.png)
 
 </p>
 
