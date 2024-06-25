@@ -41,7 +41,6 @@
 
 <p align="justify"> 
 Patika Turizm Acentesi'nin yeni yönetim sistemi, turizm sektöründe faaliyet gösteren işletmelerin günlük operasyonlarını daha verimli hale getirmeyi hedefliyor. Sistem, otel rezervasyon süreçlerini optimize ederek, acentenin müşteri taleplerine hızlı ve etkili bir şekilde yanıt vermesine olanak tanıyor. Hem yönetici hem de acente çalışanı olmak üzere iki farklı kullanıcı profili bulunuyor ve her bir kullanıcı tipinin sistem üzerinde belirli yetkileri var.
-
 Patika Turizm Acentesi'nin yönetim sistemi, otel ve oda yönetimi, dönemsel fiyatlandırma ayarları, oda arama ve rezervasyon işlemleri gibi temel işlevleri dijital ortamda sağlayarak, acentenin işlerini kolaylaştırıyor ve operasyonel süreçlerini daha etkin bir şekilde yönetmelerine olanak sağlıyor.
 </p>
 
@@ -152,36 +151,35 @@ Yeni kullanıcı ekleme paneli
 ### Otel Yönetimi
 1)
 ![](pictures/Employee.png)
+
 2)
 ![](pictures/AddPension.png)
 
+3)
+![](pictures/AddHotel.png)
+
 ### Pansiyon Yönetimi
 1)
-![](pictures/AddPension.png)
+![](pictures/PensionManagement.png)
 
 ### Sezon Yönetimi
 1)
-![](pictures/Login.png)
+![](pictures/SeasonManagement.png)
 
 ### Oda Yönetimi
 1)
 ![](pictures/Room.png)
-2)
-![](pictures/Login.png)
 
 ### Rezervasyon İşlemleri
 1)
 ![](pictures/Reservation.png)
-2)
-![](pictures/Login.png)
 
 ### Validasyonlar
 1)
-![](pictures/Login.png)
+![](pictures/Filter.png)
+
 2)
-![](pictures/Login.png)
-3)
-![](pictures/Login.png)
+![](pictures/Fil1.png)
 
 </p>
 
