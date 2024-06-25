@@ -72,7 +72,7 @@ cd tourism-agency-system-gp
 Projeyi IDE'nizde açın ve `App` sınıfını çalıştırın.
 </p>
 
-<h3 id="kurulum"> :warning: Uyarı: Bu proje, `JDK 18 Amazon Corretto 18.0.2` ile uyumludur. Lütfen bu JDK sürümünü kullanarak çalıştırdığınızdan emin olun.</h3>
+<h3 id="kurulum"> :warning: Uyarı: Bu proje, `JDK 18 Amazon Corretto 18.0.2` ile uyumludur. Lütfen bu JDK sürümünü kullanarak çalıştırıldığından emin olun.</h3>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
