@@ -115,24 +115,49 @@ Rezervasyon İşlemleri modülü, acenta çalışanlarının müşteri hizmetler
 <p align="justify"> 
 
 ### Login Ekranı
+
+<p>
+Kullanıcı adı ve şifre girildikten sonra, sistem tarafından aşağıdaki şekilde yönlendirilirsiniz:
+  
+- Eğer admin kullanıcı adı ve şifresi girildiyse, **Admin Paneli** ne giriş yapılır.
+- Eğer çalışan kullanıcı adı ve şifresi girildiyse, **Çalışan Paneli**ne giriş yapılır.
+</p>
+
 1)
 ![](pictures/Login.png)
 
 ### Admin Paneli 
+<p>Admin ve Çalışan Listesi:</p>
+
 1)
 ![](pictures/User.png)
+
+<p>
+  Yeni kullanıcı eklemek, mevcut kullanıcıyı güncellemek veya silmek için:
+  
+- İşlem yapmak istediğiniz kullanıcıyı seçmek için kullanıcı satırına sağ veya sol tıklayın.
+- Açılan pop-up menüden ilgili işlemi (Ekle, Güncelle veya Sil) seçin.
+</p>
+
 2)
-![](pictures/Login.png)
+![](pictures/PopUpUser.png)
+
+<p>
+Yeni kullanıcı ekleme paneli
+</p>
+
+3)
+![](pictures/AddUser.png)
 
 ### Otel Yönetimi
 1)
-![](pictures/Login.png)
+![](pictures/Employee.png)
 2)
-![](pictures/Login.png)
+![](pictures/AddPension.png)
 
 ### Pansiyon Yönetimi
 1)
-![](pictures/Login.png)
+![](pictures/AddPension.png)
 
 ### Sezon Yönetimi
 1)
@@ -140,13 +165,13 @@ Rezervasyon İşlemleri modülü, acenta çalışanlarının müşteri hizmetler
 
 ### Oda Yönetimi
 1)
-![](pictures/Login.png)
+![](pictures/Room.png)
 2)
 ![](pictures/Login.png)
 
 ### Rezervasyon İşlemleri
 1)
-![](pictures/Login.png)
+![](pictures/Reservation.png)
 2)
 ![](pictures/Login.png)
 
@@ -167,6 +192,6 @@ Rezervasyon İşlemleri modülü, acenta çalışanlarının müşteri hizmetler
 <h2 id="iletisim"> :phone: İletişim ve Bilgiler</h2>
 
 <p>
-✤ <a href="https://linkedin.com/in/esra-sen">LinkedIn</a> <br>
-✤ <a href="https://github.com/esrasen">GitHub</a> <br>
+✤ <a href="https://www.linkedin.com/in/emir-muhammed/">LinkedIn</a> <br>
+✤ <a href="https://github.com/behcetmuhammed">GitHub</a> <br>
 </p>
